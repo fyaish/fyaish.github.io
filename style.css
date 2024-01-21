@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.post {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post img, .post video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.like-button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.like-button.liked {
+    background-color: #365899;
+}
+
+.comments {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3b5998;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Social Media Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fareed Social Media</h1>
+    </header>
+    <main>
+        <div class="post">
+            <h2>John Doe</h2>
+            <img src="john_post.jpg" alt="John's Post Image">
+            <p>Hello, this is my first post!</p>
+			<!-- Inside each post -->
+			<button class="like-button">Like <span class="like-count" data-likes="0">0</span></button>
+            <div class="comments">
+                <p><strong>Alice:</strong> Great post!</p>
+                <!-- More comments here -->
+            </div>
+        </div>
+        <div class="post">
+            <h2>Jane Smith</h2>
+            <video controls>
+                <source src="jane_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Enjoying a lovely day at the beach!</p>
+			<!-- Inside each post -->
+			<button class="like-button">Like <span class="like-count" data-likes="0">0</span></button>
+            <div class="comments">
+                <p><strong>Bob:</strong> Looks fun!</p>
+                <!-- More comments here -->
+            </div>
+        </div>
+        <!-- Add more posts here -->
+    </main>
+    <footer>
+        <p>© 2024 My Social Media</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
